@@ -3,10 +3,11 @@ source "http://rubygems.org"
 # Example:
 #   gem "activesupport", ">= 2.3.5"
 
-gem 'backup'
-gem 'gitenv'
-gem 'vim-epidemic'
-gem 'whenever'
+gem 'backup', '~> 3.2.0'
+gem 'gitenv', '~> 0.0.5'
+gem 'vim-epidemic', '~> 0.0.4'
+gem 'whenever', '~> 0.8.2'
+gem 'dotenv', '~> 0.6.0'
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
