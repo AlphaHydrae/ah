@@ -29,6 +29,7 @@ GEM
       rake
       rdoc
     json (1.7.7)
+    lunchy (0.6.0)
     multi_json (1.7.2)
     net-ssh (2.6.7)
     open4 (1.3.0)
@@ -72,6 +73,7 @@ DEPENDENCIES
   git_go (~> 0.1.3)
   gitenv (~> 0.0.5)
   jeweler
+  lunchy (~> 0.6.0)
   rake
   rake-version
   rspec
