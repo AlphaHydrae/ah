@@ -3,15 +3,15 @@ source "http://rubygems.org"
 # Example:
 #   gem "activesupport", ">= 2.3.5"
 
-gem 'gitenv', '~> 0.0.5'
-gem 'vim-epidemic', '~> 0.0.4'
+gem 'gitenv', '~> 0.1.0'
 gem 'scide', '~> 0.1.1'
+gem 'vim-epidemic', '~> 0.0.4'
 
-gem 'backup', '~> 3.2.0'
-gem 'whenever', '~> 0.8.2'
+gem 'backup', :git => 'git://github.com/AlphaHydrae/backup.git', :branch => 'hooks'
 gem 'dotenv', '~> 0.6.0'
-gem 'git_go', '~> 0.1.3'
+#gem 'git_go', '~> 0.1.3'
 gem 'lunchy', '~> 0.6.0'
+gem 'whenever', '~> 0.8.2'
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
